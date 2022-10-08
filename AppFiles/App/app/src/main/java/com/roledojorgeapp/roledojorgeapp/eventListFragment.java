@@ -2,16 +2,13 @@ package com.roledojorgeapp.roledojorgeapp;
 
 import android.content.Context;
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.roledojorgeapp.roledojorgeapp.placeholder.PlaceholderContent;
 
 /**
@@ -19,17 +16,11 @@ import com.roledojorgeapp.roledojorgeapp.placeholder.PlaceholderContent;
  */
 public class eventListFragment extends Fragment {
 
-    // TODO: Customize parameter argument names
-    private static final String ARG_COLUMN_COUNT = "column-count";
     // TODO: Customize parameters
     private int mColumnCount = 1;
 
-    /**
-     * Mandatory empty constructor for the fragment manager to instantiate the
-     * fragment (e.g. upon screen orientation changes).
-     */
-    public eventListFragment() {
-    }
+    // TODO: Customize parameter argument names
+    private static final String ARG_COLUMN_COUNT = "column-count";
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
@@ -39,6 +30,13 @@ public class eventListFragment extends Fragment {
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
         return fragment;
+    }
+
+    /**
+     * Mandatory empty constructor for the fragment manager to instantiate the
+     * fragment (e.g. upon screen orientation changes).
+     */
+    public eventListFragment() {
     }
 
     @Override

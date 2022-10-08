@@ -149,5 +149,23 @@
         </HorizontalScrollView>
     </LinearLayout>
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentEventList"
+        android:name="com.roledojorgeapp.roledojorgeapp.eventListFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backgraundfilterLayer" />
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

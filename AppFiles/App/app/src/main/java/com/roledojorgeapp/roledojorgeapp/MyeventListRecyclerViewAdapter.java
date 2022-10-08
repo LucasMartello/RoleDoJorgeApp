@@ -1,7 +1,6 @@
 package com.roledojorgeapp.roledojorgeapp;
 
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +26,7 @@ public class MyeventListRecyclerViewAdapter extends RecyclerView.Adapter<Myevent
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        return new ViewHolder(EventlistBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
+    return new ViewHolder(EventlistBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
 
     }
 
@@ -48,11 +47,11 @@ public class MyeventListRecyclerViewAdapter extends RecyclerView.Adapter<Myevent
         public final TextView mContentView;
         public PlaceholderItem mItem;
 
-        public ViewHolder(EventlistBinding binding) {
-            super(binding.getRoot());
-            mIdView = binding.itemNumber;
-            mContentView = binding.content;
-        }
+    public ViewHolder(EventlistBinding binding) {
+      super(binding.getRoot());
+      mIdView = binding.itemDate;
+      mContentView = binding.itemTime;
+    }
 
         @Override
         public String toString() {
