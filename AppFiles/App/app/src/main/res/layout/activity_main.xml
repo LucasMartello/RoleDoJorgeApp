@@ -6,13 +6,148 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <View
+        android:id="@+id/BackgraundTopLayer"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/orange"
+        />
+
+    <View
+        android:id="@+id/backgraundfilterLayer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/lightorange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BackgraundTopLayer" />
+
+    <ImageView
+        android:id="@+id/UserIconImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BackgraundTopLayer"
+        app:layout_constraintEnd_toEndOf="@+id/BackgraundTopLayer"
+
+
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="@+id/BackgraundTopLayer"
+        app:layout_constraintTop_toTopOf="@+id/BackgraundTopLayer"
+        app:srcCompat="@drawable/eagleicon" />
+
+    <TextView
+        android:id="@+id/UserNameText"
+        android:layout_width="285dp"
+        android:layout_height="88dp"
+        android:lines="4"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:text="Jorge dos Santos Alencar"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/UserIconImage"
+        app:layout_constraintEnd_toStartOf="@+id/UserIconImage"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="@+id/UserIconImage" />
+
+    <ImageButton
+        android:id="@+id/addCategorButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backgraundfilterLayer"
+        app:layout_constraintEnd_toEndOf="@+id/UserIconImage"
+        app:layout_constraintTop_toBottomOf="@+id/BackgraundTopLayer"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:background="@drawable/roundedbutton"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/CategorButtonLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/addCategorButton"
+        app:layout_constraintEnd_toStartOf="@+id/addCategorButton"
+        app:layout_constraintStart_toStartOf="@+id/backgraundfilterLayer"
+        app:layout_constraintTop_toTopOf="@+id/addCategorButton">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/CategorButtonLinearLayoutIntenal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/CategorButton0"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:padding="50dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/CategorButton1"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="50dp"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    />
+
+                <Button
+                    android:id="@+id/CategorButton2"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="50dp"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    />
+
+                <Button
+                    android:id="@+id/CategorButton3"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="50dp"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    />
+
+                <Button
+                    android:id="@+id/CategorButton4"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="50dp"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    />
+
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
