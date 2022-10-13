@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button_fotos"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:onClick="botaoFotosOnClick"
+        android:text="Fotos"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_descricao"
+        app:layout_constraintEnd_toStartOf="@+id/button_descricao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_descricao" />
+
+    <Button
+        android:id="@+id/button_descricao"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:onClick="botaoDescricaoOnClick"
+        android:text="Descrição"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <Button
+        android:id="@+id/button_convidados"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:onClick="botaoConvidadosOnClick"
+        android:text="Convidados"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_descricao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_descricao"
+        app:layout_constraintTop_toTopOf="@+id/button_descricao" />
+
+    <Button
+        android:id="@+id/button_Return"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:onClick="button_ReturnOnCLick"
+        android:text="Retornar"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_descricao" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="360dp"
+        android:layout_height="237dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_descricao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_titulo_main" />
+
+    <TextView
+        android:id="@+id/textView_titulo_main"
+        android:layout_width="360dp"
+        android:layout_height="44dp"
+        android:text="Churras do Jorginho"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06999999" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

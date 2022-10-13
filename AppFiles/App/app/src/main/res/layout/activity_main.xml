@@ -59,6 +59,7 @@
 
     <ImageButton
         android:id="@+id/addCategorButton"
+        android:onClick="clickToOpenButton"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/roundedbutton"
