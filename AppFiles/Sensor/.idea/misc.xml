@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RoleDoJorgeApp/RoleDoJorgeApp/AppFiles/Sensor/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.168" />
+        <entry key="..\:/RoleDoJorgeApp/RoleDoJorgeApp/AppFiles/Sensor/app/src/main/res/drawable/ic_launcher_background.xml" value="0.168" />
+        <entry key="..\:/RoleDoJorgeApp/RoleDoJorgeApp/AppFiles/Sensor/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/RoleDoJorgeApp/RoleDoJorgeApp/AppFiles/Sensor/app/src/main/res/layout/fragment_micro_fone_on.xml" value="0.25416666666666665" />
         <entry key="..\:/RoleDoJorgeApp/Sensor/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
       </map>
     </option>
