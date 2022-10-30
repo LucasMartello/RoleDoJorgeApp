@@ -62,18 +62,17 @@ public class MainActivity extends AppCompatActivity {
             float sensorValue = sensorEvent.values[0];
 
             /*Background esta preto*/
-            if (backGroundColor == 0) {
+            /*if (backGroundColor == 0) {*/
                 if (sensorValue > 100) {
                     backGroundColor = 1;/*Torna variavel de controle de backgroud branca*/
                     imageView.setBackgroundColor(getResources().getColor(R.color.white));
-                    /*imageView.setBackgroundResource(R.color.yellow); /*Torna o fundo branco*/
                     if (imageState == 0){
                         imageView.setImageResource(R.drawable.microfone_black_off);
                     }else{
                         imageView.setImageResource(R.drawable.microfone_black_on);
                     }
                 }
-            }else{/*Background esta branco*/
+            /*}else{/*Background esta branco*/
 
                 if (sensorValue < 100) {
 
@@ -87,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                 }
-            }
+            /*}*/
 
         }
 
@@ -103,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         public void onSensorChanged(SensorEvent sensorEvent) {
             float sensorValue = sensorEvent.values[0];
 
-            if (imageState == 0){
+            /*if (imageState == 0){*/
                 if (sensorValue < 2){
                     imageState = 1;
                     if (backGroundColor == 0){
@@ -112,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                         imageView.setImageResource(R.drawable.microfone_black_on);
                     }
                 }
-            }else{
+            /*}else{*/
                 if (sensorValue > 2){
                     imageState = 0;
                     if (backGroundColor == 0){
@@ -122,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-            }
+            /*}*/
         }
 
         @Override
