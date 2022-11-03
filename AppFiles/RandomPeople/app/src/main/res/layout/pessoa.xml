@@ -1,206 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Random People"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentLeft="true"/>
+        android:text="API aplication"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+
+        />
 
     <TextView
+        android:id="@+id/nameTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
+        android:text="Nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/lastNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobrenome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTitle"
+        android:layout_marginTop="20dp"
+        />
 
     <TextView
+        android:id="@+id/latitudeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView4"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
+        android:text="Latitude"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameTitle"
+        android:layout_marginTop="20dp"
+        />
 
     <TextView
+        android:id="@+id/longitudeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:layout_below="@+id/textView7"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
+        android:text="Longitude"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/latitudeTitle"
+        android:layout_marginTop="20dp"
+        />
 
     <TextView
+        android:id="@+id/nameInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="71dp"
-        android:layout_alignParentRight="true" />
+        app:layout_constraintBottom_toBottomOf="@+id/nameTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nameTitle" />
 
     <TextView
+        android:id="@+id/lastNameInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome:"
-        android:id="@+id/textView6"
-        android:layout_marginLeft="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_alignBaseline="@+id/textView5"
-        android:layout_alignBottom="@+id/textView5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        app:layout_constraintBottom_toBottomOf="@+id/lastNameTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lastNameTitle" />
 
     <TextView
+        android:id="@+id/latitudeInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView7"
-        android:layout_below="@+id/textView8"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
+        app:layout_constraintBottom_toBottomOf="@+id/latitudeTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/latitudeTitle" />
+
 
     <TextView
+        android:id="@+id/longitudeInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView8"
-        android:layout_below="@+id/textView11"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView9"
-        android:layout_below="@+id/textView10"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView10"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView11"
-        android:layout_below="@+id/textView5"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView12"
-        android:layout_below="@+id/textView9"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sobrenome:"
-        android:id="@+id/textView13"
-        android:layout_below="@+id/textView6"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="22dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email:"
-        android:id="@+id/textView14"
-        android:layout_below="@+id/textView13"
-        android:layout_alignLeft="@+id/textView13"
-        android:layout_alignStart="@+id/textView13" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Endereço:"
-        android:id="@+id/textView15"
-        android:layout_below="@+id/textView14"
-        android:layout_alignLeft="@+id/textView14"
-        android:layout_alignStart="@+id/textView14" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cidade:"
-        android:id="@+id/textView16"
-        android:layout_below="@+id/textView15"
-        android:layout_alignLeft="@+id/textView15"
-        android:layout_alignStart="@+id/textView15" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Estado:"
-        android:id="@+id/textView17"
-        android:layout_below="@+id/textView16"
-        android:layout_alignLeft="@+id/textView14"
-        android:layout_alignStart="@+id/textView14" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Username:"
-        android:id="@+id/textView18"
-        android:layout_below="@+id/textView17"
-        android:layout_alignLeft="@+id/textView16"
-        android:layout_alignStart="@+id/textView16" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Senha:"
-        android:id="@+id/textView19"
-        android:layout_below="@+id/textView18"
-        android:layout_alignLeft="@+id/textView18"
-        android:layout_alignStart="@+id/textView18" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nascimento:"
-        android:id="@+id/textView20"
-        android:layout_below="@+id/textView19"
-        android:layout_alignLeft="@+id/textView19"
-        android:layout_alignStart="@+id/textView19" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Telefone:"
-        android:id="@+id/textView21"
-        android:layout_alignTop="@+id/textView12"
-        android:layout_alignLeft="@+id/textView20"
-        android:layout_alignStart="@+id/textView20" />
+        app:layout_constraintBottom_toBottomOf="@+id/longitudeTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/longitudeTitle" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="149dp"
+        android:text="Button"
         android:onClick="acionaRandom"
-        android:text="Button" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="20dp"
+        />
 
-</RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

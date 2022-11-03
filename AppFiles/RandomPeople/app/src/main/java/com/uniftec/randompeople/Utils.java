@@ -37,34 +37,14 @@ public class Utils {
 
             JSONObject objArray = array.getJSONObject(0);
 
-            JSONObject obj = objArray.getJSONObject("user");
-            //Atribui os objetos que estão nas camadas mais altas
-            pessoa.setEmail(obj.getString("email"));
-            pessoa.setUsername(obj.getString("username"));
-            pessoa.setSenha(obj.getString("password"));
-            pessoa.setTelefone(obj.getString("phone"));
-            data = new Date(obj.getLong("dob")*1000);
-            pessoa.setNascimento(sdf.format(data));
+            JSONObject name = objArray.getJSONObject("name");
+            pessoa.setNome(name.getString("first"));
+            pessoa.setSobrenome(name.getString("last"));
 
-            //Nome da pessoa é um objeto, instancia um novo JSONObject
-            JSONObject nome = obj.getJSONObject("name");
-            pessoa.setNome(nome.getString("first"));
-            pessoa.setSobrenome(nome.getString("last"));
-
-            //Endereco tambem é um Objeto
-            JSONObject endereco = obj.getJSONObject("location");
-            pessoa.setEndereco(endereco.getString("street"));
-            pessoa.setEstado(endereco.getString("state"));
-            pessoa.setCidade(endereco.getString("city"));
-
-            JSONObject coordenate = endereco.getJSONObject("coordinates");
-            pessoa.setLatitude(coordenate.getString("latitude"));
-            pessoa.setLongitude(coordenate.getString("longitude"));
-
-
-            //Imagem eh um objeto
-            JSONObject foto = obj.getJSONObject("picture");
-            pessoa.setFoto(baixarImagem(foto.getString("large")));
+            JSONObject location = objArray.getJSONObject("location");
+            JSONObject coordinates = location.getJSONObject("coordinates");
+            pessoa.setLatitude(coordinates.getString("latitude"));
+            pessoa.setLongitude(coordinates.getString("longitude"));
 
             return pessoa;
         }catch (JSONException e){
@@ -73,18 +53,5 @@ public class Utils {
         }
     }
 
-    private Bitmap baixarImagem(String url) {
-        try{
-            URL endereco;
-            InputStream inputStream;
-            Bitmap imagem; endereco = new URL(url);
-            inputStream = endereco.openStream();
-            imagem = BitmapFactory.decodeStream(inputStream);
-            inputStream.close();
-            return imagem;
-        }catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
+
 }
