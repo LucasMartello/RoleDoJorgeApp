@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="40dp"
-        android:id="@+id/addListaTitle"
+        android:id="@+id/listaTitle"
         />
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_margin="40dp"
         android:textSize="15dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/addListaTitle"
+        app:layout_constraintTop_toBottomOf="@id/listaTitle"
 
         />
 
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@id/dataAddListaTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/BottonBG"
         android:layout_marginTop="40dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -80,6 +80,40 @@
         app:layout_constraintBottom_toBottomOf="@id/listaAddBG"
         app:layout_constraintStart_toStartOf="@id/listaAddBG"
         app:layout_constraintEnd_toEndOf="@id/listaAddBG"/>
+
+
+    <TextView
+        android:id="@+id/BottonBG"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/purple"
+
+        />
+
+    <Button
+        android:id="@+id/cancelarAddListaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/BottonBG"
+        app:layout_constraintBottom_toBottomOf="@id/BottonBG"
+        app:layout_constraintEnd_toStartOf="@id/salvarAddListaButton"
+        android:text="Cancelar"
+    />
+
+    <Button
+        android:id="@+id/salvarAddListaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/BottonBG"
+        app:layout_constraintBottom_toBottomOf="@id/BottonBG"
+        app:layout_constraintStart_toEndOf="@id/cancelarAddListaButton"
+        android:text="Salvar"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
