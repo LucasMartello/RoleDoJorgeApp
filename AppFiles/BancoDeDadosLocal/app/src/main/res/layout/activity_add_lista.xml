@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddLista"
+    android:background="@color/orange">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Lista de Compras"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="40dp"
+        android:id="@+id/listaTitle"
+        />
+
+    <TextView
+        android:id="@+id/nomeAddListaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome da Lista: "
+        android:layout_margin="40dp"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listaTitle"
+
+        />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/nomeAddListaTitle"
+        app:layout_constraintBottom_toBottomOf="@id/nomeAddListaTitle"
+        android:id="@+id/nomeAddListaContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/nomeAddListaTitle"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/dataAddListaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Data da Lista: "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nomeAddListaTitle"
+
+        />
+
+    <TextView
+        android:id="@+id/dataAddListaContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/dataAddListaTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nomeAddListaContent"
+        app:layout_constraintTop_toTopOf="@id/dataAddListaTitle" />
+
+    <TextView
+        android:id="@+id/totalValorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Valor Total: "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dataAddListaTitle"
+
+        />
+
+    <TextView
+        android:id="@+id/totalValorContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="R$: 0.00"
+        app:layout_constraintBottom_toBottomOf="@id/totalValorTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nomeAddListaContent"
+        app:layout_constraintTop_toTopOf="@id/totalValorTitle" />
+
+    <TextView
+        android:id="@+id/listaAddBG"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/totalValorTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/BottonBG"
+        android:layout_marginTop="20dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaProdutos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/listaAddBG"
+        app:layout_constraintEnd_toEndOf="@id/listaAddBG"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/listaAddBG"
+        app:layout_constraintTop_toTopOf="@id/listaAddBG"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/BottonBG"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/purple"
+
+        />
+
+    <Button
+        android:id="@+id/deleteAddListaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/BottonBG"
+        app:layout_constraintBottom_toBottomOf="@id/BottonBG"
+        app:layout_constraintEnd_toStartOf="@id/salvarAddListaButton"
+        android:text="Deletar"
+    />
+
+    <Button
+        android:id="@+id/salvarAddListaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/BottonBG"
+        app:layout_constraintBottom_toBottomOf="@id/BottonBG"
+        app:layout_constraintStart_toEndOf="@id/deleteAddListaButton"
+        android:text="Salvar"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-26:12
@@ -15,6 +16,19 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\lucas\.gradl
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\3fdf10314d5c06c9c5d698daa9add789\activity-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\983e8c0d8139214e4c1a458332814aa4\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\068551aa626579a67aeac3625fb3340f\core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
+=======
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f6a183f8595ca34f3d5cc99d1f8bc322\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4f37a040d795d0eef135b10b20545e3f\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d382ba9b8c9ea9d7b43a9cfaea0ecdf4\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\324a702de98e8e0560de88ae82ee3427\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -23,6 +37,7 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\lucas\
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+<<<<<<< HEAD
 MERGED from [androidx.core:core:1.8.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\15d508e02a8bd0e09bc9d88db3fea05a\core-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\b13ba3a76592f7815a0d0b680c74779e\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\b07f8f241b1935cf08a4e3b1bd5ae2c8\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -100,28 +115,114 @@ uses-sdk
 INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
 INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+=======
+MERGED from [androidx.core:core:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\684c19030ab34291fff8f6b761838da8\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\85b59553d84ac8d04663d7d81848664c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:6:5-20:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.uniftec.randompeople.MainActivity
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f6a183f8595ca34f3d5cc99d1f8bc322\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f6a183f8595ca34f3d5cc99d1f8bc322\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+<<<<<<< HEAD
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\7442aaf26a8be02b4c87776f9815cffc\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\7442aaf26a8be02b4c87776f9815cffc\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+=======
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4f37a040d795d0eef135b10b20545e3f\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4f37a040d795d0eef135b10b20545e3f\fragment-1.0.0\AndroidManifest.xml:20:5-44
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d382ba9b8c9ea9d7b43a9cfaea0ecdf4\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d382ba9b8c9ea9d7b43a9cfaea0ecdf4\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+=======
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\324a702de98e8e0560de88ae82ee3427\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\324a702de98e8e0560de88ae82ee3427\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\3fdf10314d5c06c9c5d698daa9add789\activity-1.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\3fdf10314d5c06c9c5d698daa9add789\activity-1.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\983e8c0d8139214e4c1a458332814aa4\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\983e8c0d8139214e4c1a458332814aa4\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\068551aa626579a67aeac3625fb3340f\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\068551aa626579a67aeac3625fb3340f\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+=======
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -138,6 +239,7 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\luca
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
 MERGED from [androidx.core:core:1.8.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\15d508e02a8bd0e09bc9d88db3fea05a\core-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\15d508e02a8bd0e09bc9d88db3fea05a\core-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\b13ba3a76592f7815a0d0b680c74779e\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -146,12 +248,23 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\lucas\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\b07f8f241b1935cf08a4e3b1bd5ae2c8\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\93b7cf4d83b266f9c8415ac56077e77d\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\93b7cf4d83b266f9c8415ac56077e77d\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+=======
+MERGED from [androidx.core:core:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\07608d1ce0a2b5e25216bbe877b06158\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\684c19030ab34291fff8f6b761838da8\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\684c19030ab34291fff8f6b761838da8\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\c625d9fda06e00596cdd4af98f1d26ab\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\c625d9fda06e00596cdd4af98f1d26ab\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\4c85a92a61b292345ab8f6bbc9c7d9ed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -176,3 +289,25 @@ INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\mai
 		INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
 		ADDED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
 		INJECTED from D:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+=======
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\85b59553d84ac8d04663d7d81848664c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\85b59553d84ac8d04663d7d81848664c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		ADDED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+		INJECTED from C:\RoleDoJorgeApp\RoleDoJorgeApp\AppFiles\RandomPeople\app\src\main\AndroidManifest.xml
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768

@@ -9,18 +9,27 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0d4fe6ea-0004-4355-aa97-75d1a8bf286a" name="Changes" comment="" />
+=======
+    <list default="true" id="6f061b3f-f63b-4b01-b4a4-26772686fd27" name="Changes" comment="" />
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\lucas\.android\avd\Pixel_4_API_30.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\lucas\.android\avd\Pixel_5_API_32.avd]" />
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -35,6 +44,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gzvgc9CpWzYWogMePu6tJOYPdP" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2GjuOYSwTI4X8Tl3495ZjPNbnjS" />
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,6 +70,14 @@
     <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lembretes-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-426491916">
+      <recent name="com.uniftec.randompeople" />
+    </key>
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -65,7 +89,10 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
       <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+<<<<<<< HEAD
       <option name="CLEAR_APP_STORAGE" value="false" />
+=======
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -105,7 +132,10 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+<<<<<<< HEAD
         <option name="PROFILING_MODE" value="NOT_SET" />
+=======
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -119,11 +149,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="0d4fe6ea-0004-4355-aa97-75d1a8bf286a" name="Changes" comment="" />
       <created>1667404346915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667404346915</updated>
+=======
+      <changelist id="6f061b3f-f63b-4b01-b4a4-26772686fd27" name="Changes" comment="" />
+      <created>1666914283094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666914283094</updated>
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
     </task>
     <servers />
   </component>
@@ -137,5 +175,9 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
   </component>
 </project>

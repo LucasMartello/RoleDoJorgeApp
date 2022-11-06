@@ -9,9 +9,12 @@ package androidx.lifecycle.viewmodel;
 public final class R {
     private R() {}
 
+<<<<<<< HEAD
     public static final class id {
         private id() {}
 
         public static final int view_tree_view_model_store_owner = 0x7f0800cc;
     }
+=======
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
 }

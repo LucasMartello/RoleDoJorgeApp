@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "D:\\RoleDoJorgeApp\\RoleDoJorgeApp\\AppFiles\\RandomPeople\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-2\\files-2.1\\15d508e02a8bd0e09bc9d88db3fea05a\\core-1.8.0\\res\\values-tl\\values-tl.xml",
+=======
+            "outputFile": "C:\\RoleDoJorgeApp\\RoleDoJorgeApp\\AppFiles\\RandomPeople\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lucas\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\values-tl\\values-tl.xml",
+>>>>>>> 65862dbed734dfedcf084adabd94ec5940b6e768
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
