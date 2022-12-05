@@ -155,7 +155,7 @@ public class AddLista extends AppCompatActivity {
         return null;
     }
 
-    public void atualizaListaProdutos(int listaId){
+    public void atualizaListaProdutosatualizaListaProdutos(int listaId){
         try {
             DataBaseHelper db = new DataBaseHelper(this);
             listaProdutos = db.getAllProduto(ListaId);

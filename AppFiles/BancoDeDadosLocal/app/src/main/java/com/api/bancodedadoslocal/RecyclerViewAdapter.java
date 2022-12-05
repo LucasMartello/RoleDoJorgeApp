@@ -57,6 +57,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.nameLine.setText(productList.get(position).getNome());
         holder.precoLine.setText("R$ " + String.valueOf(productList.get(position).getValor()));
+        
         if (productList.get(position).isSelected()){
             holder.lineBG.setBackgroundColor(Color.GREEN);
         }else {
